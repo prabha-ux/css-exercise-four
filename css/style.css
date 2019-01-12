@@ -2,3 +2,101 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+h1, .emphasis {
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .baku h1 {
+    font-size: x-large;
+    font-family: serif;
+    text-align: left;
+    margin: 20px;
+  }
+
+  .london h1 {
+    font-size: x-large;
+    font-family: serif;
+    text-align: left;
+    margin: 20px;
+  }
+
+  .madrid h1 {
+    font-size: x-large;
+    font-family: serif;
+    text-align: left;
+    margin: 20px;
+  }
+
+
+.rome h1 {
+  font-size: x-large;
+  font-family: serif;
+  text-align: left;
+  margin: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.baku {
+  font-family: serif;
+  font-size: x-large;
+  text-transform: capitalize;
+  text-align: inherit;
+  background-image: url("../images/baku.jpg");
+}
+
+.london {
+  font-family: serif;
+  font-size: x-large;
+  text-transform: capitalize;
+  background-image: url("../images/london.png");
+}
+
+.madrid {
+  font-family: serif;
+  font-size: x-large;
+  text-transform: capitalize;
+  background-image: url("../images/madrid.jpg");
+}
+
+.rome {
+  font-family: serif;
+  font-size: x-large;
+  text-transform: capitalize;
+  background-image: url("../images/rome.jpg");
+}
+
+.preview {
+  width: 90%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  margin: 1%;
+}
+
+.container{
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+}
+
+@media screen and (min-width: 1200px){
+  .preview{
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+  .preview{
+    width: 40%;
+  }
+}
